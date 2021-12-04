@@ -20,10 +20,8 @@ This project seeks to collect and send any kind of telemetry to the ThingsBoard 
 
 # At least two TTGO T-Beam boards are required to run this project. One for the gateway and one or more for the Telemetry Unit.
 
-	* A new device shall be created on ThingsBoard for each Telemetry Unit. However, tokens are set on utilities.h of the Gateway code.
+* A new device shall be created on ThingsBoard for each Telemetry Unit. However, tokens are set on utilities.h of the Gateway code.
 	
-
-	* The Gateway Board must be connected to a network that can be accessed by the ThingsBoard Instance at all time. Otherwise, data will be lost.
+* The Gateway Board must be connected to a network that can be accessed by the ThingsBoard Instance at all time. Otherwise, data will be lost.
 	
-
-	* The Wi-Fi SSID and Password must be defined at utilities.h of the Gateway code.
+* The Wi-Fi SSID and Password must be defined at utilities.h of the Gateway code.
